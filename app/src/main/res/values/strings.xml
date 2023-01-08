@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">CareService</string>
+    <string name="login">login</string>
+    <string name="datakendaraan">Mohon isi keterangan kendaraan kamu dibawah ini</string>
+    <string name="logout">Hallo Terimakasih sudah mencoba aplikasi kami!</string>
+    <string name="gmail">Care-Service</string>
+    <string name="hallo">Hallo...</string>
+    <string name="linkemail">CareService@gmail.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="activity">Activity</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="peta">Peta Lokasi Dealer</string>
+    <string name="daihatsu">Daihatsu</string>
+    <string name="mitsubishi">Mitsubishi</string>
+    <string name="toyota">Toyota</string>
+    <string name="suzuki">Suzuki</string>
+    <string name="towing">Towing</string>
+    <string name="transaksi">Transaksi</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="copyright">Aplikasi Care-Service ini akan memuat informasi kota,pilihan perusahan dealer dan data berupa informasi
+    yang akan menampilkan nama dealer,alamat dealer dan kontak yang dapatdihubungi, dengan tujuan informasi yang diberikan
+    dapat membantu konsumen mengetahui perusahan dealer mana yang menyediakan jasa Home Service tanpa harus menebak-nebak
+    dan mendatangi dealer tersebut.</string>
+    <string name="channel_desc">Update Timeline otomatis</string>
+    <string name="channel_name">Updater</string>
+    <string name="pesan">Untuk %1$s Langsung aja yuk order...</string>
+    <string name="notif_title">Promo baru!</string>
+    <string name="notif_text">Chek Disini</string>
+    <string name="koneksi_error">Koneksi error</string>
+    <string name="checkin_sekarang">Log-out</string>
+    <string name="btngmail">Hubungi Admin</string>
+    <string name="booking">Booking Service On-Site</string>
+    <string name="booking1">Booking Service At-Home</string>
+    <string name="athome">Service At Home</string>
+    <string name="onsite">Service On Site</string>
+    <string name="emergency">Emergency</string>
+    <string name="imformasi">Artikel</string>
+    <string name="pesan_keluar">Anda yakin ingin Keluar dari Aplikasi ini?</string>
+    <string name="ya">Ya</string>
+    <string name="tidak">Tidak</string>
+    <string name="btnartikel">Baca Artikel</string>
+    <string name="lihat">Lokasi Dealer</string>
+    <string name="masuk">Masuk</string>
+
+    <string name="head1">Detail Artikel</string>
+    <string name="line1">Ketahui! 5 Gejala Kanvas Kopling Mobil Kamu Habis</string>
+    <string name="topik1">31 Jul 2022 | 11:00 WIB
+    Kopling mobil adalah komponen pada mobil yang menjadi penghubung antara poros engkol dengan roda transmisi gigi.Kegunaan kopling adalah sebagai penggerak roda bagian belakang mobil.
+    Jika pengemudi mengganti gigi, maka kopling yang akan memberikan arahan kepada roda mobil mengenai perubahan kecepatan sesuai dengan gigi yang dimasukkan oleh pengemudi. Pentingnya peran kopling membuat komponen ini harus rutin dirawat.
+        Pengguna mobil juga harus apa saja ciri-ciri kanvas kopling mobil habis saat perawatan.Faktanya, kinerja kanvas kopling mobil semakin menurun seiring dengan lamanya penggunaan kendaraan beroda empat tersebut. Kerja kanvas kopling sangat berhubungan dengan gesekan dan tekanan,
+        menyebabkan keausan yang kemudian berimbas pada performa mobil. Apabila mobil sudah menunjukkan tanda kanvas kopling yang habis, komponen itu harus segera diganti. Menunda untuk menggantinya hanya mengakibatkan kerusakan yang lebih parah.
+        Akibatnya, kondisi mobil semakin menurun hari demi harinya, sehingga mengendarai mobil pun rasanya tidak aman dan nyaman. </string>
+
+    <string name="head2">Detail Artikel</string>
+    <string name="line2">Apa Aja Sih Jenis Spare Part Mobil?</string>
+    <string name="topik2">Ketika Sahabat memiliki sebuah mobil, tentu ingin mobil tetap dalam kondisi yang prima. Upaya menjaga performa mobil bisa dilakukan dengan perawatan servis rutin dan ada beberapa spare part mobil yang penting untuk diganti secara rutin.
+
+Servis rutin sangatlah disarankan untuk dilakukan, karena bisa menghindarkan mobil dari berbagai kerusakan spare part. Apabila terjaga dengan baik, maka mobil bisa tahan lama dan bisa dipakai dalam berbagai kondisi jalan. Nah, berikut ini adalah pembahasan lengkap perihal ragam spare part mobil.
+
+Apa Itu Spare Part Mobil?
+Spare Part merupakan sebuah barang yang berisikan berbagai komponen dalam suatu kesatuan dan memiliki fungsi tertentu. Spare part banyak dipakai di berbagai jenis kendaraan, sehingga jenis-jenisnya juga sangat beragam.
+
+Spare part mobil pasti memiliki kegunaan tersendiri, tetapi ada yang sistem kerjanya saling terkait dengan spare part lain. Setidaknya ada beberapa jenis spare part yang sangat penting untuk diketahui dan dipelajari sistem kerjanya.
+
+Selain pengertian spare part di atas, berikut ini penjelasan spare part lainnya. Ada pun spare part artinya bagian mobil yang terdiri atas komponen-komponen yang membuat kesatuan dan punya fungsi spesifik. Spare part terdiri atas banyak komponen, tetapi yang dibahas di sini adalah komponen yang seringkali mengalami rusak dan diganti.
+
+Jenis-Jenis Spare Part Mobil
+Berikut ini pembahasan perihal spare part mobil yang perlu Sahabat ketahui.
+
+1. Orisinil
+Original equipment manufacturer atau OEM merupakan sebuah istilah yang menyatakan produk pabrikan asli atau orisinil. Produk orisinil biasanya memiliki kualitas yang bagus dan jenis produk orisinil banyak ditemukan di industri otomotif.
+
+Produk orisinil biasanya akan diproduksi oleh pihak manufaktur asal atau bisa juga diproduksi perusahaan lain yang ditunjuk oleh pihak manufaktur. Mobil menjadi kendaraan yang dilengkapi dengan ratusan spare part.
+
+Tidak semua jenis spare part bisa dibuat atau diproduksi oleh pihak manufaktur, sehingga ada beberapa jenis spare part yang pembuatannya dialihkan ke perusahaan lain dan perusahaan tersebut sudah pasti ditunjuk oleh pihak manufaktur mobil.
+
+Meskipun dikerjakan oleh perusahaan lain, namun spare part mobil yang dihasilkan termasuk orisinil atau asli, karena pembuatannya telah sesuai dengan standar yang diterapkan manufaktur.</string>
+
+    <string name="head3">Detail Artikel</string>
+    <string name="line3">Sejumlah Penyebab Mobil Boros Bahan Bakar, Ini Cara Atasinya!</string>
+    <string name="topik3">Memiliki mobil dengan konsumsi bahan bakar minyak atau BBM yang irit merupakan dambaan seluruh pemilik kendaraan ya, Sahabat Garasi. Namun, banyak yang belum tahu, ternyata pengemudi yang menjadi biang kerok borosnya pemakaian BBM.
+
+Mobil boros BBM ternyata juga bisa disebabkan beberapa hal yang tak disadari pengemudi. Kadang kondisi yang dianggap sepele bisa menyebabkan konsumsi BBM pada mobil tidak efisien.</string>
+
+
+    <string name="artikel_a">Ketahui! 5 Gejala Kanvas Kopling Mobil Kamu Habis</string>
+    <string name="artikel_b">Apa Aja Sih Jenis Spare Part Mobil?</string>
+    <string name="artikel_c">Penyebab Mobil Boros Bahan Bakar, Ini Cara Atasinya!</string>
+    <string name="mitsubishi_home_1">Mitsubishi Mahligai Gardujati</string>
+
+    <string name="datakendaraan1">Mohon isi keterangan kendaraan kamu dibawah ini</string>
+    <string name="jadwal">Pilih Jadwal Yang diinginkan </string>
+
+
+    <string-array name="jeniskendaraan">
+        <item>Mistsubishi</item>
+        <item>KIA</item>
+        <item>Suzuki</item>
+        <item>Daihatsu</item>
+        <item>Toyota</item>
+    </string-array>
+
+    <string-array name="tipemobil">
+        <item>Eclipse Cross</item>
+        <item>L300</item>
+        <item>Outlander PHEV</item>
+        <item>Pajero Sport</item>
+        <item>Triton 4x4</item>
+        <item>Xpander</item>
+        <item>Xpander Cross</item>
+
+
+    </string-array>
+
+    <string-array name="jam">
+        <item>07:30</item>
+        <item>09:30</item>
+        <item>11:30</item>
+        <item>13:30</item>
+    </string-array>
+
+    <string-array name="paketservice">
+        <item>Penggantian Oli MesinRp 250.000</item>
+        <item>Paket Lengkap Perawatan Rp 250.000</item>
+        <item>Service Ac Rp 250.000</item>
+    </string-array>
+
+
+</resources>
+

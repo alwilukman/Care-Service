@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/daihatsu"
+        android:title="Daihatsu"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mitsubisi"
+        android:title="Mitsubisi"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/toyota"
+        android:title="Toyota"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/suzuki"
+        android:title="Suzuki"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/kia"
+        android:title="KIA"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/towing"
+        android:title="Towing"
+        app:showAsAction="never" />
+</menu>

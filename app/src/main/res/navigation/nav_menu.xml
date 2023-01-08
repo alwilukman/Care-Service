@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_menu"
+    app:startDestination="@id/menuUtamaFragment">
+
+    <fragment
+        android:id="@+id/serviceOnsite"
+        android:name="org.d3ifcool.careservice.ui.ServiceOnsite"
+        android:label="service_onsite"
+        tools:layout="@layout/service_onsite" >
+        <action
+            android:id="@+id/action_serviceOnsite_to_mitsubishiSiteFragment"
+            app:destination="@id/mitsubishiSiteFragment" />
+        <action
+            android:id="@+id/action_serviceOnsite_to_daihatsuSiteFragment"
+            app:destination="@id/daihatsuSiteFragment" />
+        <action
+            android:id="@+id/action_serviceOnsite_to_suzukiSiteFragment"
+            app:destination="@id/suzukiSiteFragment" />
+        <action
+            android:id="@+id/action_serviceOnsite_to_toyotaSiteFragment"
+            app:destination="@id/toyotaSiteFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/serviceAthome"
+        android:name="org.d3ifcool.careservice.ui.ServiceAthome"
+        android:label="service_home"
+        tools:layout="@layout/service_home" >
+        <action
+            android:id="@+id/action_serviceAthome_to_daihatsuHomeFragment"
+            app:destination="@id/daihatsuHomeFragment" />
+        <action
+            android:id="@+id/action_serviceAthome_to_mitsubishiHomeFragment"
+            app:destination="@id/mitsubishiHomeFragment" />
+        <action
+            android:id="@+id/action_serviceAthome_to_suzukiHomeFragment"
+            app:destination="@id/suzukiHomeFragment" />
+        <action
+            android:id="@+id/action_serviceAthome_to_toyotaHomeFragment"
+            app:destination="@id/toyotaHomeFragment" />
+        <action
+            android:id="@+id/action_serviceAthome_to_kiaHomeFragment"
+            app:destination="@id/kiaHomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile"
+        android:name="org.d3ifcool.careservice.ui.Profile"
+        android:label="Profile"
+        tools:layout="@layout/profile" >
+        <action
+            android:id="@+id/action_profile_to_dataMobilFragment"
+            app:destination="@id/dataMobilFragment" />
+        <action
+            android:id="@+id/action_profile_to_historyFragment"
+            app:destination="@id/historyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuUtamaFragment"
+        android:name="org.d3ifcool.careservice.activity.MenuUtamaFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_menu_utama">
+        <action
+            android:id="@+id/action_menuUtamaFragment_to_serviceAthome"
+            app:destination="@id/serviceAthome" />
+        <action
+            android:id="@+id/action_menuUtamaFragment_to_serviceOnsite"
+            app:destination="@id/serviceOnsite" />
+        <action
+            android:id="@+id/action_menuUtamaFragment_to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_menuUtamaFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_menuUtamaFragment_to_activityFragment"
+            app:destination="@id/activityFragment" />
+        <action
+            android:id="@+id/action_menuUtamaFragment_to_artikelFragment"
+            app:destination="@id/artikelFragment" />
+        <action
+            android:id="@+id/action_menuUtamaFragment_to_sosFragment"
+            app:destination="@id/sosFragment" />
+        <action
+            android:id="@+id/action_menuUtamaFragment_to_dataKendaraanFragment"
+            app:destination="@id/dataKendaraanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/transaksi"
+        android:name="org.d3ifcool.careservice.fragment.transaksi.Transaksi"
+        android:label="transaksi"
+        tools:layout="@layout/transaksi" >
+        <argument
+            android:name="dealer"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="org.d3ifcool.careservice.ui.AboutFragment"
+        android:label="AboutFragment"
+        tools:layout="@layout/fragment_about"/>
+    <fragment
+        android:id="@+id/daihatsuHomeFragment"
+        android:name="org.d3ifcool.careservice.ui.data.athome.dai.DaihatsuHomeFragment"
+        android:label="fragment_daihatsu_home"
+        tools:layout="@layout/fragment_daihatsu_home" >
+        <action
+            android:id="@+id/action_daihatsuHomeFragment_to_transaksi"
+            app:destination="@id/transaksi" />
+    </fragment>
+    <fragment
+        android:id="@+id/mitsubishiHomeFragment"
+        android:name="org.d3ifcool.careservice.ui.data.athome.mitsu.MitsubishiHomeFragment"
+        android:label="fragment_mitsubishi_home"
+        tools:layout="@layout/fragment_mitsubishi_home" >
+        <action
+            android:id="@+id/action_mitsubishiHomeFragment_to_transaksi"
+            app:destination="@id/transaksi" />
+    </fragment>
+    <fragment
+        android:id="@+id/suzukiHomeFragment"
+        android:name="org.d3ifcool.careservice.ui.data.athome.suzuki.SuzukiHomeFragment"
+        android:label="fragment_suzuki_home"
+        tools:layout="@layout/fragment_suzuki_home" >
+        <action
+            android:id="@+id/action_suzukiHomeFragment_to_transaksi"
+            app:destination="@id/transaksi" />
+    </fragment>
+    <fragment
+        android:id="@+id/toyotaHomeFragment"
+        android:name="org.d3ifcool.careservice.ui.data.athome.toyota.ToyotaHomeFragment"
+        android:label="fragment_toyota_home"
+        tools:layout="@layout/fragment_toyota_home" >
+        <action
+            android:id="@+id/action_toyotaHomeFragment_to_transaksi"
+            app:destination="@id/transaksi" />
+    </fragment>
+    <fragment
+        android:id="@+id/activityFragment"
+        android:name="org.d3ifcool.careservice.fragment.activity.ActivityFragment"
+        android:label="fragment_activity"
+        tools:layout="@layout/fragment_activity" />
+    <fragment
+        android:id="@+id/transaksiSiteFragment"
+        android:name="org.d3ifcool.careservice.fragment.transaksisite.TransaksiSiteFragment"
+        android:label="fragment_transaksi_site"
+        tools:layout="@layout/fragment_transaksi_site" >
+        <argument
+            android:name="dealer"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/artikelFragment"
+        android:name="org.d3ifcool.careservice.ui.artikel.ArtikelFragment"
+        android:label="fragment_artikel"
+        tools:layout="@layout/fragment_artikel" >
+        <action
+            android:id="@+id/action_artikelFragment_to_artikelsatuFragment"
+            app:destination="@id/artikelsatuFragment" />
+        <action
+            android:id="@+id/action_artikelFragment_to_artikelduaFragment"
+            app:destination="@id/artikelduaFragment" />
+        <action
+            android:id="@+id/action_artikelFragment_to_artikeltigaFragment"
+            app:destination="@id/artikeltigaFragment" />
+        <action
+            android:id="@+id/action_artikelFragment_to_artikelDetail"
+            app:destination="@id/artikelDetail" />
+    </fragment>
+    <fragment
+        android:id="@+id/artikelsatuFragment"
+        android:name="org.d3ifcool.careservice.ui.artikel.ArtikelFragment"
+        android:label="fragment_artikelsatu"
+        tools:layout="@layout/fragment_artikel" />
+    <fragment
+        android:id="@+id/artikelduaFragment"
+        android:name="org.d3ifcool.careservice.ui.artikel.ArtikelFragment"
+        android:label="fragment_artikeldua"
+        tools:layout="@layout/fragment_artikel" />
+    <fragment
+        android:id="@+id/artikeltigaFragment"
+        android:name="org.d3ifcool.careservice.ui.artikel.ArtikelFragment"
+        android:label="fragment_artikeltiga"
+        tools:layout="@layout/fragment_artikel" />
+    <fragment
+        android:id="@+id/mitsubishiSiteFragment"
+        android:name="org.d3ifcool.careservice.ui.data.onsite.mitsu.MitsubishiSiteFragment"
+        android:label="MitsubishiSiteFragment"
+        tools:layout="@layout/fragment_mistubitsh_site">
+        <action
+            android:id="@+id/action_mitsubishiSiteFragment_to_transaksiSiteFragment"
+            app:destination="@id/transaksiSiteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/daihatsuSiteFragment"
+        android:name="org.d3ifcool.careservice.ui.data.onsite.dai.DaihatsuSiteFragment"
+        android:label="DaihatsuSiteFragment"
+        tools:layout="@layout/fragment_daihatsu_site">
+        <action
+            android:id="@+id/action_daihatsuSiteFragment_to_transaksiSiteFragment"
+            app:destination="@id/transaksiSiteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/suzukiSiteFragment"
+        android:name="org.d3ifcool.careservice.ui.data.onsite.suzuki.SuzukiSiteFragment"
+        android:label="SuzukiSiteFragment"
+        tools:layout="@layout/fragment_suzuki_site">
+        <action
+            android:id="@+id/action_suzukiSiteFragment_to_transaksiSiteFragment"
+            app:destination="@id/transaksiSiteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/toyotaSiteFragment"
+        android:name="org.d3ifcool.careservice.ui.data.onsite.toyota.ToyotaSiteFragment"
+        android:label="ToyotaSiteFragment"
+        tools:layout="@layout/fragment_toyota_site">
+        <action
+            android:id="@+id/action_toyotaSiteFragment_to_transaksiSiteFragment"
+            app:destination="@id/transaksiSiteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/artikelDetail"
+        android:name="org.d3ifcool.careservice.ui.artikeldetail.ArtikelDetail"
+        android:label="ArtikelDetail"
+        tools:layout="@layout/fragment_artikel">
+        <argument
+            android:name="url"
+            app:argType="string" />
+        <argument
+            android:name="judul"
+            app:argType="string" />
+        <argument
+            android:name="isi"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/sosFragment"
+        android:name="org.d3ifcool.careservice.ui.sos.SosFragment"
+        android:label="SosFragment"
+        tools:layout="@layout/fragment_sos"/>
+    <fragment
+        android:id="@+id/dataMobilFragment"
+        android:name="org.d3ifcool.careservice.fragment.datamobil.DataMobilFragment"
+        android:label="fragment_data_mobil"
+        tools:layout="@layout/fragment_data_mobil" >
+        <action
+            android:id="@+id/action_dataMobilFragment_to_dataKendaraanFragment"
+            app:destination="@id/dataKendaraanFragment" />
+        <action
+            android:id="@+id/action_dataMobilFragment_to_toyotaHomeFragment"
+            app:destination="@id/toyotaHomeFragment" />
+        <action
+            android:id="@+id/action_dataMobilFragment_to_kiaHomeFragment"
+            app:destination="@id/kiaHomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="org.d3ifcool.careservice.ui.history.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/dataKendaraanFragment"
+        android:name="org.d3ifcool.careservice.fragment.datakendaraan.DataKendaraanFragment"
+        android:label="fragment_data_kendaraan"
+        tools:layout="@layout/fragment_input_data_kendaraan"/>
+
+    <fragment
+        android:id="@+id/kiaHomeFragment"
+        android:name="org.d3ifcool.careservice.ui.data.athome.kia.KiaHomeFragment"
+        android:label="fragment_kia_home"
+        tools:layout="@layout/fragment_kia_home" >
+        <action
+            android:id="@+id/action_kiaHomeFragment_to_transaksi"
+            app:destination="@id/transaksi" />
+    </fragment>
+</navigation>
